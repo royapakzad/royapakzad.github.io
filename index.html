@@ -1,61 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roya Pakzad</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roya Pakzad</title>
+  <meta name="description" content="Roya Pakzad — AI evaluation and safety researcher, founder and director of Taraaz. Multilingual LLM evaluation, guardrails, red-teaming, and human rights.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <header class="header">
-            <div class="profile-section">
-                <img src="Roya_Pakzad_image_hirez.jpeg" alt="Roya Pakzad" class="profile-image">
-                <h1 class="name">Roya Pakzad</h1>
-                <p class="title">Founder & Director at Taraaz | Senior Fellow at Mozilla Foundation</p>
-            </div>
-        </header>
 
-        <nav class="navigation">
-            <a href="https://drive.google.com/file/d/1wA5L4wtnCBLUE3wAMXuEs0EGJntP-ntT/view?usp=drive_link" class="nav-link" target="_blank" rel="noopener noreferrer">
-                CV
-            </a>
-            <a href="https://www.linkedin.com/in/rpakzad/" class="nav-link" target="_blank" rel="noopener noreferrer">
-                LinkedIn
-            </a>
-            <a href="https://github.com/royapakzad" class="nav-link" target="_blank" rel="noopener noreferrer">
-                GitHub
-            </a>
-            <a href="https://royapakzad.substack.com/" class="nav-link" target="_blank" rel="noopener noreferrer">
-                Newsletter
-            </a>
-        </nav>
-
-        <main class="main-content">
-            <section class="bio">
-                <p>Roya Pakzad is the founder and director of <a href="https://taraazresearch.org/" target="_blank" rel="noopener noreferrer">Taraaz</a>. She is also a senior fellow in Trustworthy AI at Mozilla Foundation and an affiliated scholar at UC Berkeley's CITRIS Policy Lab. Her work centers on researching human rights implications of digital technologies, corporate accountability, and human rights-centered design.</p>
-
-                <p>Previously, she served as the 2023-24 Practitioner Data and Democracy Fellow at the Karsh Institute of Democracy and the School of Data Science at the University of Virginia. She also worked as the project leader and research associate at Stanford's Global Digital Policy Incubator (GDPi) and Stanford's program in Iranian Studies on the role of information and communication technologies and human rights in Iran. Prior to entering the human rights field, Roya was an electrical engineer at Advanced Micro Devices (AMD). She holds degrees from Shahid Beheshti University in Iran (B.Sc. in Electrical Engineering), the University of Southern California (M.Sc. in Electrical Engineering) and Columbia University (M.A. in Human Rights Studies).</p>
-
-                <p>Roya's work has been featured in news and press outlets including Wired, Financial Times, BBC, CNN, and Reuters. It has also been recognized by various awards and fellowships from esteemed institutions such as the Center for Applied Data Ethics at the University of San Francisco, the Rockefeller Foundation Bellagio Center, Meta, and Twitter Engineering.</p>
-
-                <p>She was born and raised in Tehran, Iran and currently lives in Santa Cruz, California. She can be reached via email at <a href="mailto:rpakzad@taraazresearch.org">rpakzad@taraazresearch.org</a>.</p>
-            </section>
-
-            <section class="advisory-roles">
-                <h2>Selected Advisory Roles</h2>
-                <ul>
-                    <li>Advisor at Meta's AI Expert Advisory Roundtable (AI EAR) | Current</li>
-                    <li>Advisory Council Member at Open Technology Fund (OTF) | Current</li>
-                    <li>Advisor at Meta's Actor & Behavior Expert Circle | Current</li>
-                    <li>Member of IEEE Standards Association's Artificial Intelligence Procurement Working Group P3119</li>
-                    <li>Advisor at the Generative AI Red Team Challenge at DEFCON 31</li>
-                    <li>Commissioner for the Prevention of Violence Against Women, City of Santa Cruz</li>
-                    <li>Committee Member, ACM FAccT Conference (Fairness, Accountability, and Transparency in Socio-technical Systems)</li>
-                </ul>
-            </section>
-        </main>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a href="#top" class="brand">Roya Pakzad</a>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+      <nav class="topnav">
+        <a href="#news">News</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#speaking">Speaking</a>
+        <a href="#awards">Awards &amp; Media</a>
+        <a href="#service">Advisory</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
-    <script src="script.js"></script>
+  </header>
+
+  <main class="container" id="top">
+
+    <!-- ============ Profile ============ -->
+    <section class="profile">
+      <img src="roya.jpg" alt="Roya Pakzad" class="photo" width="260" height="260">
+      <h1>Roya Pakzad</h1>
+      <p class="tagline">AI Evaluation &amp; Safety Researcher · Founder &amp; Director, <a href="https://taraazresearch.org/" target="_blank" rel="noopener">Taraaz</a></p>
+      <div class="links">
+        <a href="https://drive.google.com/file/d/1wA5L4wtnCBLUE3wAMXuEs0EGJntP-ntT/view?usp=sharing" target="_blank" rel="noopener">CV</a>
+        <a href="https://github.com/royapakzad" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/rpakzad/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://royapakzad.substack.com/" target="_blank" rel="noopener">Newsletter</a>
+        <a href="mailto:rpakzad@taraazresearch.org">Email</a>
+      </div>
+    </section>
+
+    <section class="bio">
+      <p>Roya Pakzad is an AI evaluation and safety researcher and the founder and director of <a href="https://taraazresearch.org/" target="_blank" rel="noopener">Taraaz</a>, an independent research organization working on AI safety evaluation, trust and safety, and human rights. With a background in electrical engineering and human rights studies, she has spent more than a decade across engineering, trust and safety, and technology policy. Her current focus is whether evaluations and guardrails stay reliable across <strong>languages, product contexts, and agentic systems</strong>.</p>
+
+      <p>She works with policy and domain experts to turn safety concerns into scenarios, behavioral policies and rubrics, human-review protocols, and LLM-judge pipelines. She has red-teamed models for <strong>OpenAI (GPT-4)</strong> and <strong>Meta</strong>, and has led evaluation and risk engagements for OpenAI, Google, Meta, and the Wikimedia Foundation.</p>
+
+      <p>In 2026 she was a Builder-in-Residence at <a href="https://www.mozilla.ai/" target="_blank" rel="noopener">Mozilla.ai</a>, and from 2025 to early 2026 a Senior Fellow in Trustworthy AI at the Mozilla Foundation, where she built the <a href="https://www.multilingualailab.com/" target="_blank" rel="noopener">Multilingual AI Safety Evaluation Lab</a>. Earlier, she was a Data &amp; Democracy Fellow at the University of Virginia, a research associate and project lead at Stanford's Global Digital Policy Incubator, and an electrical engineer at AMD, where she worked on the custom chips for PlayStation 4 and Xbox One. She holds an M.A. in Human Rights Studies from Columbia University, an M.Sc. in Electrical Engineering from USC, and a B.Sc. in Electrical Engineering from Shahid Beheshti University.</p>
+
+      <p>Her work has been featured in Wired, the Financial Times, BBC, CNN, and Reuters, and has been recognized by the Center for Applied Data Ethics at USF, the Rockefeller Foundation Bellagio Center, Meta, and Twitter Engineering. She was born and raised in Tehran, Iran, and lives in Santa Cruz, California.</p>
+    </section>
+
+    <!-- ============ News ============ -->
+    <section id="news">
+      <h2>News</h2>
+      <ul class="news">
+        <li><span class="date">Nov 2026</span><span>Joined CDT's <a href="https://cdt.org/insights/tech-talks-live-research-at-the-intersection-of-technology-policy-and-the-public-interest/" target="_blank" rel="noopener">Tech Talks Live!</a> podcast on civil-society research at the intersection of tech policy and the public interest.</span></li>
+        <li><span class="date">Nov 2026</span><span>Our paper on agentic guardrails across languages was accepted to the <strong>NeurIPS 2026</strong> Trustworthy AI for Good workshop (Paris, Dec 12). <a href="https://openreview.net/forum?id=SlzepKBKHW" target="_blank" rel="noopener">(OpenReview)</a></span></li>
+        <li><span class="date">Oct 2026</span><span>Taraaz joined <a href="https://www.aipotluck.org/updates/meet-ai-potlucks-6-new-partners" target="_blank" rel="noopener">AI Potluck</a> as a partner, contributing our evaluation method and codebase to the <a href="https://alpha.aipotluck.org/" target="_blank" rel="noopener">Alpha</a> tool.</span></li>
+        <li><span class="date">Oct 2026</span><span>Contributed a chapter on who speaks for the Majority World to <a href="https://libraopen.library.virginia.edu/entities/publication/93be2f82-a6de-4d7c-bb87-2361b4e64d2c" target="_blank" rel="noopener"><em>Digital Democracy from Below</em></a> (UVA Digital Technology for Democracy Lab).</span></li>
+        <li><span class="date">Jun 2026</span><span>Co-led the <strong>ACM FAccT 2026</strong> tutorial “Contextual Evaluation of LLM Guardrails” with Daniel Nissani. <a href="https://royapakzad.github.io/guardrail_webapp/" target="_blank" rel="noopener">(Demo)</a></span></li>
+        <li><span class="date">2026</span><span>Joined the Trust &amp; Safety Foundation's <a href="https://www.trustandsafetyfoundation.org/tooling-research-committee" target="_blank" rel="noopener">Tooling Research Committee</a>.</span></li>
+        <li><span class="date">Nov 2025</span><span>Launched the <a href="https://www.multilingualailab.com/" target="_blank" rel="noopener">Multilingual AI Safety Evaluation Lab</a>, supported by the Mozilla Foundation. <a href="https://github.com/royapakzad/ai-safety-evaluation-lab" target="_blank" rel="noopener">(GitHub)</a></span></li>
+        <li><span class="date">Sep 2025</span><span>The Wikimedia Foundation published the <a href="https://diff.wikimedia.org/2025/09/30/making-sure-ai-serves-people-and-knowledge-stays-human-wikimedia-foundation-publishes-a-human-rights-impact-assessment-on-the-interaction-of-ai-and-machine-learning-with-wikimedia-projects/" target="_blank" rel="noopener">AI &amp; ML Human Rights Impact Assessment</a> that Taraaz wrote.</span></li>
+        <li><span class="date">Aug 2025</span><span>Released <a href="https://taraazresearch.org/ai-procurement" target="_blank" rel="noopener">Key Considerations When Procuring AI in the Public Sector</a> with the Collaborative Research Center for Resilience.</span></li>
+      </ul>
+      <details class="more">
+        <summary>Older news</summary>
+        <ul class="news">
+          <li><span class="date">Dec 2024</span><span>Launched the <a href="https://webpages.notion.site/federalaiindex" target="_blank" rel="noopener">U.S. Responsible AI Procurement Index</a>, covering 15 federal departments and 22 indicators.</span></li>
+          <li><span class="date">Apr 2024</span><span>Civil-society partner in the DEF CON AI Village <a href="https://www.humane-intelligence.org/grt" target="_blank" rel="noopener">Generative AI Red-Teaming</a> transparency report.</span></li>
+          <li><span class="date">Feb 2024</span><span>Taraaz joined the <a href="https://www.nist.gov/aisi/artificial-intelligence-safety-institute-consortium-aisic" target="_blank" rel="noopener">NIST AI Safety Institute Consortium</a>.</span></li>
+          <li><span class="date">Feb 2024</span><span>Scoping research (with Dr. Keren Weitzberg) for <a href="https://www.amnesty.org/en/documents/pol40/7654/2024/en/" target="_blank" rel="noopener">Amnesty International's primer</a> on refugee and migrant digital rights.</span></li>
+          <li><span class="date">Apr 2023</span><span>Interviewed by the <a href="https://www.ft.com/content/0876687a-f8b7-4b39-b513-5fee942831e8" target="_blank" rel="noopener">Financial Times</a> on red-teaming GPT-4.</span></li>
+          <li><span class="date">Apr 2023</span><span><a href="https://github.com/royapakzad/LUCID" target="_blank" rel="noopener">LUCID</a> named a finalist in the <a href="https://hai.stanford.edu/ai-audit-challenge-2023-finalists" target="_blank" rel="noopener">Stanford HAI AI Audit Challenge</a>.</span></li>
+          <li><span class="date">Mar 2023</span><span>Red-teamed GPT-4 in English and Farsi. <a href="https://cdn.openai.com/papers/gpt-4-system-card.pdf" target="_blank" rel="noopener">(System Card)</a></span></li>
+          <li><span class="date">Feb 2023</span><span>Paper on online counterpublics for American Muslims accepted to <a href="https://dl.acm.org/doi/10.1145/3579526" target="_blank" rel="noopener">ACM CSCW</a>.</span></li>
+          <li><span class="date">Aug 2021</span><span>Won third prize in Twitter's Algorithmic Bias Bounty Challenge for <a href="https://medium.com/taraaz/gazing-at-the-mother-tongue-854c9e89b422" target="_blank" rel="noopener">“Gazing at the Mother Tongue.”</a></span></li>
+        </ul>
+      </details>
+    </section>
+
+    <!-- ============ Research ============ -->
+    <section id="research">
+      <h2>Research</h2>
+      <p>I build evaluation methods for multilingual harms, content moderation, generative AI, and agentic systems, turning written safety policies into criteria that people and LLM judges can grade reliably and into recommendations that product and policy teams can act on.</p>
+
+      <h3>Highlights</h3>
+
+      <article class="project">
+        <h4><a href="https://royapakzad.github.io/guardrail_webapp/" target="_blank" rel="noopener">Guardrail Agentic</a></h4>
+        <p>An open-source framework that converts a written safety policy into structured behavioral criteria and grading guidance for agentic and non-agentic LLM judges, using web search and retrieval for evidence-based verification. Tested on tool-using systems in humanitarian assistance, finance, and cybersecurity, comparing generic and context-specific policies across languages. <span class="tags">(FAccT'26 Tutorial, NeurIPS'26 AI for Good Workshop)</span></p>
+      </article>
+
+      <article class="project">
+        <h4><a href="https://www.multilingualailab.com/" target="_blank" rel="noopener">Multilingual AI Safety Evaluation Lab</a></h4>
+        <p>An open-source, human-in-the-loop framework for scenario-based evaluation, structured grading, and cross-model comparison. With Respond Crisis Translation, 8 language experts produced 655 human evaluations of GPT, Gemini, and Mistral across English, Farsi, Arabic, Kurdish Sorani, and Pashto, showing large drops in actionability outside English. <span class="tags">(<a href="https://github.com/royapakzad/ai-safety-evaluation-lab" target="_blank" rel="noopener">GitHub</a>, Mozilla Data Collective dataset)</span></p>
+      </article>
+
+      <article class="project">
+        <h4><a href="https://blog.mozilla.ai/evaluating-multilingual-context-aware-guardrails-evidence-from-a-humanitarian-llm-use-case/" target="_blank" rel="noopener">Multilingual, Context-Aware Guardrails</a></h4>
+        <p>With Mozilla.ai, an evaluation of three guardrail systems (FlowJudge, Glider, and an AnyLLM-based guardrail) against human annotation on 60 asylum-seeker scenarios, testing whether scores hold when the policy language changes. <span class="tags">(<a href="https://blog.mozilla.ai/evaluating-multilingual-context-aware-guardrails-evidence-from-a-humanitarian-llm-use-case/" target="_blank" rel="noopener">Blog'26</a>)</span></p>
+      </article>
+
+      <article class="project">
+        <h4>Bilingual Shadow Reasoning</h4>
+        <p>A red-teaming framework, submitted to OpenAI's GPT-OSS-20B Red Teaming Challenge, testing how customized deliberative-reasoning policies and policy language steer model behavior, including hidden cross-language steering and divergence between reasoning and output. <span class="tags">(2025)</span></p>
+      </article>
+
+      <article class="project">
+        <h4>Multilingual Policy Testing for gpt-oss-safeguard</h4>
+        <p>An OpenAI, ROOST, and Hugging Face hackathon project testing an open, policy-following safety classifier across languages; included in the ROOST model-community repository. <span class="tags">(Dec 2025)</span></p>
+      </article>
+
+      <article class="project">
+        <h4>Red-Teaming Frontier Models</h4>
+        <p>External red-teamer for OpenAI (GPT-4, English and Farsi, including visual inputs) and Meta, reporting failures to the developers' safety teams. Advisor to the DEF CON 31 Generative AI Red-Team Challenge. <span class="tags">(<a href="https://cdn.openai.com/papers/gpt-4-system-card.pdf" target="_blank" rel="noopener">GPT-4 System Card</a>)</span></p>
+      </article>
+
+      <article class="project">
+        <h4><a href="https://webpages.notion.site/federalaiindex" target="_blank" rel="noopener">U.S. Responsible AI Procurement Index</a> &amp; Government AI Oversight</h4>
+        <p>Built from scratch an index assessing federal AI procurement and public accountability across 15 departments and 22 measurable indicators, and developed oversight frameworks that tie testing, documentation, and human oversight to vendor accountability for U.S. local governments. <span class="tags">(<a href="https://taraazresearch.org/ai-procurement" target="_blank" rel="noopener">Report'25</a>, IEEE P3119)</span></p>
+      </article>
+
+      <article class="project">
+        <h4>Human Rights Impact Assessments</h4>
+        <p>Risk and evaluation engagements for OpenAI, Google, Meta, the Wikimedia Foundation, and civil-society organizations, combining technical testing, policy analysis, and stakeholder interviews. <span class="tags">(<a href="https://meta.wikimedia.org/wiki/File:Wikimedia_Foundation_Artificial_Intelligence_and_Machine_Learning_Human_Rights_Impact_Assessment.pdf" target="_blank" rel="noopener">Wikimedia HRIA'25</a>)</span></p>
+      </article>
+    </section>
+
+    <!-- ============ Publications ============ -->
+    <section id="publications">
+      <h2>Selected Publications</h2>
+      <ul class="pubs">
+        <li><strong>Contextual Evaluation of LLM Guardrails Across Languages and Agentic Systems.</strong> ACM FAccT Tutorial, 2026. Related agentic guardrail work accepted to the NeurIPS 2026 AI for Good Workshop. <a href="https://openreview.net/forum?id=SlzepKBKHW" target="_blank" rel="noopener">(OpenReview)</a></li>
+        <li><strong>Evaluating Multilingual, Context-Aware Guardrails: Evidence from a Humanitarian LLM Use Case.</strong> R. Pakzad, D. Nissani. Mozilla.ai, 2026. <a href="https://blog.mozilla.ai/evaluating-multilingual-context-aware-guardrails-evidence-from-a-humanitarian-llm-use-case/" target="_blank" rel="noopener">(Link)</a></li>
+        <li><strong>Who Speaks for the Majority World?</strong> In <em>Digital Democracy from Below</em>, UVA Digital Technology for Democracy Lab, 2026. <a href="https://libraopen.library.virginia.edu/entities/publication/93be2f82-a6de-4d7c-bb87-2361b4e64d2c" target="_blank" rel="noopener">(Link)</a></li>
+        <li><strong>Key Considerations When Procuring AI in the Public Sector.</strong> Taraaz &amp; Collaborative Research Center for Resilience, 2025. <a href="https://taraazresearch.org/s/AI_Procurement_Taraaz_CRCR_2025.pdf" target="_blank" rel="noopener">(PDF)</a></li>
+        <li><strong>Sustained Harm Over Time and Space Limits the External Function of Online Counterpublics for American Muslims.</strong> ACM CSCW, 2023. <a href="https://dl.acm.org/doi/10.1145/3579526" target="_blank" rel="noopener">(Paper)</a></li>
+        <li><strong>A Guiding Framework to Vetting Public Sector Technology Vendors.</strong> Taraaz for the Ford Foundation, 2023. <a href="https://www.fordfoundation.org/work/learning/research-reports/a-guiding-framework-to-vetting-public-sector-technology-vendors/" target="_blank" rel="noopener">(Link)</a></li>
+        <li><strong>Leap of FATE: Human Rights as a Complementary Framework for AI Policy and Practice.</strong> ACM FAccT, 2020. <a href="https://dl.acm.org/doi/abs/10.1145/3351095.3375665" target="_blank" rel="noopener">(Paper)</a></li>
+      </ul>
+      <p class="note">More writing on AI safety, evaluation, and governance in the <a href="https://royapakzad.substack.com/" target="_blank" rel="noopener"><em>Humane AI</em> newsletter</a> (1,100+ subscribers).</p>
+    </section>
+
+    <!-- ============ Speaking ============ -->
+    <section id="speaking">
+      <h2>Speaking</h2>
+      <ul class="plain">
+        <li>CDT Tech Talks Live!, Research at the Intersection of Technology Policy and the Public Interest, 2026 <a href="https://cdt.org/insights/tech-talks-live-research-at-the-intersection-of-technology-policy-and-the-public-interest/" target="_blank" rel="noopener">(Podcast)</a></li>
+        <li>ACM FAccT Tutorial, Contextual Evaluation of LLM Guardrails, 2026 <a href="https://royapakzad.github.io/guardrail_webapp/" target="_blank" rel="noopener">(Demo)</a></li>
+        <li>University of Virginia, Digital Democracy from Below, public conversation, 2026 <a href="https://www.youtube.com/watch?v=jjnV0QvSxxQ" target="_blank" rel="noopener">(Video)</a></li>
+        <li>AAAS &amp; National League of Cities, Leveraging Procurement for Responsible AI in the Public Sector, 2025 <a href="https://www.aaas.org/events/leveraging-procurement-responsible-ai-public-sector" target="_blank" rel="noopener">(Link)</a></li>
+        <li>GovAI Coalition, AI oversight guidance for local governments, 2025</li>
+        <li>WNET <em>Chasing the Dream</em>, Antiracist Technology panel, 2021 <a href="https://www.youtube.com/watch?v=cXh4HqRpFt4" target="_blank" rel="noopener">(Video)</a></li>
+        <li>Iran Messaging Apps &amp; Digital Rights report launch, with Filterwatch and Ranking Digital Rights, 2020 <a href="https://youtu.be/3SNzHrxV0sE" target="_blank" rel="noopener">(Video)</a></li>
+        <li>Element AI, Mozilla &amp; Rockefeller Foundation, Closing the Human Rights Gap in AI Governance, 2019 <a href="https://s3.amazonaws.com/element-ai-website-bucket/whitepaper-closing-the-human-rights-gap-in-ai-governance.pdf" target="_blank" rel="noopener">(Report)</a></li>
+      </ul>
+    </section>
+
+    <!-- ============ Awards & Media ============ -->
+    <section id="awards">
+      <h2>Awards and Honors</h2>
+      <ul class="plain">
+        <li>Builder-in-Residence, Mozilla.ai, 2026</li>
+        <li>Senior Fellow, Trustworthy AI, Mozilla Foundation, 2025</li>
+        <li>Data &amp; Democracy Fellow, Karsh Institute of Democracy &amp; School of Data Science, University of Virginia, 2023–24</li>
+        <li>Rose Foundation award for municipal AI procurement guides (with the AAAS EPI Center), 2023</li>
+        <li>Finalist, Stanford HAI AI Audit Challenge (LUCID), 2023 <a href="https://hai.stanford.edu/ai-audit-challenge-2023-finalists" target="_blank" rel="noopener">(Link)</a></li>
+        <li>Third Prize, Twitter Algorithmic Bias Bounty Challenge, 2021 <a href="https://blog.twitter.com/engineering/en_us/topics/insights/2021/algorithmic-bias-bounty-challenge" target="_blank" rel="noopener">(Blogpost)</a></li>
+        <li>Fellowships and awards from the Center for Applied Data Ethics (USF), the Rockefeller Foundation Bellagio Center, and Meta</li>
+      </ul>
+
+      <h3>Media</h3>
+      <ul class="plain">
+        <li>Financial Times, on red-teaming GPT-4 in Farsi, 2023 <a href="https://www.ft.com/content/0876687a-f8b7-4b39-b513-5fee942831e8" target="_blank" rel="noopener">(Article)</a></li>
+        <li>Ranking Digital Rights, Digital Rights and Tech in Iran, 2022 <a href="https://rankingdigitalrights.org/2022/10/06/digital-rights-and-tech-in-iran-using-rdrs-standards-in-a-context-of-state-repression/" target="_blank" rel="noopener">(Interview)</a></li>
+        <li>Reuters / Context, Surveillance Tech in Iran, 2022 <a href="https://www.context.news/surveillance/protesters-and-police-deploy-tech-in-fight-for-future-of-iran" target="_blank" rel="noopener">(Article)</a></li>
+        <li>Wired and The Verge, Twitter Algorithmic Bias Bounty, 2021 <a href="https://www.theverge.com/2021/8/10/22617972/twitter-photo-cropping-algorithm-ai-bias-bug-bounty-results" target="_blank" rel="noopener">(Article)</a></li>
+        <li>Reuters, Santa Cruz Ban on Predictive Policing, 2020 <a href="https://www.reuters.com/article/us-usa-police-tech-trfn/california-city-bans-predictive-policing-in-u-s-first-idUSKBN23V2XC" target="_blank" rel="noopener">(Article)</a></li>
+      </ul>
+    </section>
+
+    <!-- ============ Advisory ============ -->
+    <section id="service">
+      <h2>Advisory &amp; Standards Roles</h2>
+      <ul class="plain">
+        <li>Advisory Council Member, Open Technology Fund</li>
+        <li>Advisor, Meta's Actor &amp; Behavior Expert Circle</li>
+        <li>Advisor, Meta's AI Expert Advisory Roundtable (AI EAR)</li>
+        <li>Member, Trust &amp; Safety Foundation Tooling Research Committee</li>
+        <li>Member, IEEE P3119 AI Procurement Working Group</li>
+        <li>Member (Taraaz), NIST AI Safety Institute Consortium</li>
+        <li>Affiliated Scholar, CITRIS Policy Lab, UC Berkeley</li>
+        <li>Expert Contributor, ECNL <em>Algorithmic Gatekeepers</em> report on LLM content moderation, 2025</li>
+        <li>Advisor, Generative AI Red-Team Challenge, DEF CON 31</li>
+        <li>Commissioner for the Prevention of Violence Against Women, City of Santa Cruz</li>
+        <li>Committee Member, ACM FAccT</li>
+      </ul>
+    </section>
+
+    <!-- ============ Contact ============ -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>For research collaborations, evaluation engagements, or speaking requests, email <a href="mailto:rpakzad@taraazresearch.org">rpakzad@taraazresearch.org</a> or visit <a href="https://taraazresearch.org/" target="_blank" rel="noopener">taraazresearch.org</a>.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year">2026</span> Roya Pakzad · Santa Cruz, California</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
